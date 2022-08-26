@@ -35,14 +35,15 @@
         <div class="form-group">
             <p>Which option best describes your current role?</p>
                <select name="role" id="dropdown" class="form-control" required>
-                <option disabled selected value>Select current role</option>
-                <option value="student">Student</option>
-                <option value="job">Full Time Job</option>
-                <option value="learner">Full Time Learner</option>
-                <option value="preferNO">Prefer not to say</option>
-                <option value="other">Other</option>
+                <option disabled selected value class="options">Select current role</option>
+                <option value="student" class="options">Student</option>
+                <option value="job" class="options">Full Time Job</option>
+                <option value="learner" class="options">Full Time Learner</option>
+                <option value="preferNO" class="options">Prefer not to say</option>
+                <option value="other" class="options">Other</option>
                </select>
         </div>
+    <!--Drop Down End Here-->
 
         <div class="form-group">
             <p>Would you recommend freeCodeCamp to a friend?</p>
@@ -65,11 +66,11 @@
         <div class="form-group">
             <p>What is your favorite feature of freeCodeCamp?</p>
                <select name="mostLike" id="most-like" class="form-control" required>
-                <option disabled selected value>Select current role</option>
-                <option value="challenge">Challenge</option>
-                <option value="projects">Projects</option>
-                <option value="community">Community</option>
-                <option value="openSource">Open Source</option>
+                <option disabled selected value class="options">Select current role</option>
+                <option value="challenge" class="options">Challenge</option>
+                <option value="projects" class="options">Projects</option>
+                <option value="community" class="options">Community</option>
+                <option value="openSource" class="options">Open Source</option>
                </select>
         </div>
 
@@ -94,12 +95,27 @@
 
             <label>
                 <input type="checkbox" name="prefer" class="input-checkbox" value="challenge">
-                Challenge
+                Coding Challenge
             </label>
 
             <label>
                 <input type="checkbox" name="prefer" class="input-checkbox" value="videos">
-                Videos
+                Videography
+            </label>
+
+            <label>
+                <input type="checkbox" name="prefer" class="input-checkbox" value="data-science">
+                Data Science
+            </label>
+
+            <label>
+                <input type="checkbox" name="prefer" class="input-checkbox" value="rdms">
+                Relational Database Management System
+            </label>
+
+            <label>
+                <input type="checkbox" name="prefer" class="input-checkbox" value="javascript-courses">
+                JavaScript Developer
             </label>
 
             <label>
@@ -120,8 +136,6 @@
         <span class="freecodecamp"><a href="https://www.linkedin.com/in/evans-elabo/" target="_blank"><i class="fa fa-linkedin-square"></i> </a></span></p>
         <span class="freecodecamp"><a href="https://github.com/ellaboevans" target="_blank"><i class="fa fa-github-square"></i></a></span></p>
         <span class="freecodecamp"><a href="https://twitter.com/theevanselabo_" target="_blank"><i class="fa fa-twitter-square"></i> </a></span></p>
-        
-
         </div>
      </form>
      
