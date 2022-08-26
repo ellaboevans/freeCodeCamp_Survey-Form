@@ -114,6 +114,9 @@ textarea{
     font-weight: 500;
     font-size: 18px
 }
+button:hover{
+    background-color: #03c24c;
+}
 
 
 button{
@@ -166,4 +169,14 @@ a:visited{
     color:rgb(255, 255, 255);
     text-decoration: underline;
     
+}
+
+textarea::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.options{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
 }
