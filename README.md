@@ -1,6 +1,6 @@
-#freeCodeCamp Survey Form
+# freeCodeCamp Survey Form
 
-##Objective
+## Objective
 
 * Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
