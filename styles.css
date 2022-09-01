@@ -23,6 +23,7 @@ body{
 .container{
     max-width: 540px;
     margin: 3.125rem auto 0 auto;
+    
 }
 
 .text-center{
@@ -64,7 +65,7 @@ div{
 .form-group{
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
-   border: none;
+    border: none;
 }
 .form-control{
     display: block;
